@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Social from "./components/Home/Social";
+import About from "./components/About/About";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <div className="main">
         <Home />
+        <About />
       </div>
     </>
   )

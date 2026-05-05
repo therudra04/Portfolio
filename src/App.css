@@ -16,7 +16,7 @@
   --container-color: white;
 
   /* Font and Typography */
-  --body-font: "Poppins", sans-sarif;
+  --body-font: 'poppins', sans-serif;
 
   /* 0.5rem = 8px | 1rem = 16px... */
   --big-font-size: 3.5rem;
@@ -187,8 +187,16 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    margin: 0 0 var(--header-height) 0;
+  }
+
   .section{
     padding: 2rem 0 4rem;
+  }
+
+  .section_subtitle{
+    margin-bottom: var(--mb-3);
   }
 }
 
