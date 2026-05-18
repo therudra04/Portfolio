@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <header className="header">
                 <nav className="nav container">
-                    <a href="index.html" className="nav_logo">Smith</a>
+                    <a href="index.html" className="nav_logo">Dev.Rudra</a>
 
                     <div className={toggle? "nav_menu show_menu" : "nav_menu"}>
                         <ul className="nav_list grid">

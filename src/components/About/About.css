@@ -16,7 +16,7 @@
     text-align: left;
 }
 
-.about_data{
+.about_data {
     text-align: center;
 }
 
@@ -35,14 +35,29 @@
         padding: 0 5rem;
         margin-bottom: 2rem;
     }
-}
 
-@media screen and (max-width: 576px) {
-    .about_description{
-        padding: 0;
+    .about.section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
+    .about_description {
+        padding: 0;
+    }
 
+    .section {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about.section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
+
+@media screen and (max-width: 350px) {}

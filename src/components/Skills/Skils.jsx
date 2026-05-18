@@ -101,11 +101,11 @@ const qualificationData = [
         title: "Python & Django Developer",
         subtitle: "Backend Development",
     },
- 
+
     {
         year: "2025",
-        title: "Frontend Developer",
-        subtitle: "JS & React Projects",
+        title: "JS & React Developer",
+        subtitle: "Frontend Development",
     },
 
     {
@@ -148,9 +148,9 @@ const Skills = () => {
                                     {category.skills.map((skill, idx) => (
                                         <div className="" key={idx}>
                                             <div className="skill_card">
-                                            <div className="skill_icon">
-                                                {skill.icon}
-                                            </div>
+                                                <div className="skill_icon">
+                                                    {skill.icon}
+                                                </div>
                                             </div>
 
                                             <h4>{skill.name}</h4>
