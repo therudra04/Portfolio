@@ -19,7 +19,7 @@ import {
 
 import { VscVscode } from "react-icons/vsc";
 
-import "./skills.css";
+import "./Skills.css";
 
 const skillsData = [
     {
