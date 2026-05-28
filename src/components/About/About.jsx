@@ -1,12 +1,12 @@
 import React from 'react'
 import './About.css';
-import AboutImg from '../../Assets/profile.png';
-// import CV from '../../Assets/John-Cv.pdf';
+import AboutImg from '../../Assets/about.png';
+import CV from "../../Assets/Rudra's CV.pdf";
 import Info from './Info';
 
 const About = () => {
     return (
-        <section className="about section">
+        <section className="about section" id="about">
             <h2 className="section_title">About Me</h2>
             <span className="section_subtitle">My Introduction</span>
 
@@ -17,7 +17,7 @@ const About = () => {
 
                     <p className="about_description">I'm a full-stack developer focused on building clean, responsive web applications. I enjoy turning ideas into real-world products while continuously improving my skills. </p>
 
-                    <a href="#" className="button button-flex">
+                    <a href={CV} download className="button button-flex">
                         Download CV
                         <svg
                             className="button__icon"

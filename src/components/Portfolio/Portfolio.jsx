@@ -69,7 +69,7 @@ const data = [
         images: [textutils1, textutils2, textutils3, textutils4],
         title: "TextUtils - Text Manipulation Tool",
         description: "Created a react app for text manipulation with feeatures like uppercase, lowercase, word count, and character count.",
-        demo: "therudra04.github.io/TextUtils/",
+        demo: "https://6a180c77b589df1dce7a370e--text-utils-web-app.netlify.app/",
         github: "https://github.com/therudra04/TextUtils.git",
     },
 
@@ -92,17 +92,17 @@ const data = [
     },
 ];
 
-const Projects = () => {
+const portfolio = () => {
     return (
-        <section className="projects section" id="projects">
+        <section className="portfolio section" id="portfolio">
             <h2 className="section_title">Portfolio</h2>
             <span className="section_subtitle">Most recent works</span>
 
-            <div className="projects_container container grid">
+            <div className="portfolio_container container grid">
                 {data.map(
                     ({ id, images, title, description, demo, github, classes }) => {
                         return (
-                            <div className="projects_card" key={id}>
+                            <div className="portfolio_card" key={id}>
                                 <Swiper
                                     modules={[Autoplay]}
                                     autoplay={{
@@ -110,29 +110,29 @@ const Projects = () => {
                                         disableOnInteraction: false,
                                     }}
                                     loop={true}
-                                    className="projects_swiper"
+                                    className="portfolio_swiper"
                                 >
                                     {images.map((img, index) => (
                                         <SwiperSlide key={index}>
                                             <img
                                                 src={img}
                                                 alt=""
-                                                className="projects_img"
+                                                className="portfolio_img"
                                             />
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>
 
-                                <h3 className="projects_title">{title}</h3>
+                                <h3 className="portfolio_title">{title}</h3>
 
-                                <p className="projects_description">
+                                <p className="portfolio_description">
                                     {description}
                                 </p>
 
-                                <div className={`projects_buttons ${classes}`}>
+                                <div className={`portfolio_buttons ${classes}`}>
                                     <a
                                         href={demo}
-                                        className="projects_button"
+                                        className="portfolio_button"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
@@ -141,7 +141,7 @@ const Projects = () => {
 
                                     <a
                                         href={github}
-                                        className="projects_button"
+                                        className="portfolio_button"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
@@ -157,4 +157,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default portfolio;

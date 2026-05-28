@@ -110,7 +110,7 @@ const qualificationData = [
 
     {
         year: "2022-2025",
-        title: "Computere Science Student",
+        title: "Computer Science Student",
         subtitle: "Bachelor's Degree",
     },
 

@@ -1,13 +1,13 @@
-.projects {
+.portfolio {
     padding: 6rem 0;
 }
 
-.projects_container {
+.portfolio_container {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.projects_card {
+.portfolio_card {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -15,34 +15,34 @@
     transition: 0.3s;
 }
 
-.projects_card:hover {
+.portfolio_card:hover {
     transform: translateY(-10px);
 }
 
-.projects_img {
+.portfolio_img {
     width: 100%;
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
 
-.projects_title {
+.portfolio_title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: 0.5rem;
 }
 
-.projects_description {
+.portfolio_description {
     font-size: var(--small-font-size);
     margin-bottom: 1rem;
     color: var(--text-color);
 }
 
-.projects_buttons {
+.portfolio_buttons {
     display: flex;
     gap: 1rem;
 }
 
-.projects_button {
+.portfolio_button {
     padding: 0.75rem 1.2rem;
     background-color: var(--title-color);
     color: #fff;
@@ -51,31 +51,32 @@
     transition: 0.3s;
 }
 
-.projects_button:hover {
+.portfolio_button:hover {
     background-color: var(--title-color-dark);
 }
 
 /*=============== BREAKPOINTS ===============*/
 
 @media screen and (max-width: 992px) {
-    .projects_container {
+    .portfolio_container {
         grid-template-columns: repeat(2, 1fr);
+        margin: auto;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .projects_container {
+    .portfolio_container {
         grid-template-columns: 1fr;
     }
 }
 
-.projects_swiper {
+.portfolio_swiper {
     width: 310px;
     height: 200px;
     margin-bottom: 1rem;
 }
 
-.projects_img {
+.portfolio_img {
     width: 100%;
     height: 100%;
     object-fit: cover;

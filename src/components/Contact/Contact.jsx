@@ -8,8 +8,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_yg6gho9', 'template_s0drims', form.current, {
+    emailjs.sendForm('service_yg6gho9', 'template_s0drims', form.current, {
         publicKey: 'fhIveSfr7sJpfDzLa',
       })
     e.target.reset();
@@ -29,7 +28,7 @@ const Contact = () => {
               <h3 className="contact_card-title">Email</h3>
               <span className="contact_card-data">therudra04@gmail.com</span>
 
-              <a href="" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+              <a href="mailto:therudra04@gmail.com" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
             </div>
 
             <div className="contact_card">
@@ -40,6 +39,17 @@ const Contact = () => {
 
               <a href="https://api.whatsapp.com/send?phone=8602092662&text=Hello, more information!" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
             </div>
+
+            <div className="contact_card">
+              <i className="bx bxl-instagram contact_card-icon"></i>
+
+              <h3 className="contact_card-title">Instagram</h3>
+              <span className="contact_card-data">@rudra.modi_05</span>
+
+              <a href="https://instagram.com/rudra.modi_05" target="_blank" rel="noreferrer" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i>
+              </a>
+            </div>
+            
           </div>
         </div>
 

@@ -1,8 +1,13 @@
 .contact_container{
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
+    justify-self: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
+}
+
+.contact{
+    width: 100%;
 }
 
 .contact-title{
@@ -134,7 +139,7 @@
     }
 
     .contact_form{
-        width: 100%;
+        /* width: 100%; */
     }
 }
 

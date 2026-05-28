@@ -3,15 +3,15 @@ import React from 'react'
 const Social = () => {
   return (
     <div className='home_social'>
-          <a href="" target="https://www.instagram.com/" className="home_social-icon">
+      <a href="https://www.instagram.com/rudra.modi_05/" target="https://www.instagram.com/rudra.modi_05/" className="home_social-icon">
             <i className='uil uil-instagram'></i>
         </a>
           
-          <a href="" target="https://dribbble.com/" className="home_social-icon">
-            <i className='uil uil-dribbble'></i>
+      <a href="https://www.linkedin.com/in/rudra-modi-271384285/" target="_blank"  className="home_social-icon">
+        <i className="fa-brands fa-square-linkedin"></i>
         </a>
           
-          <a href="" target="https://github.com/" className="home_social-icon">
+      <a href="https://github.com/therudra04" target="_blank" className="home_social-icon">
             <i className='uil uil-github-alt'></i>
         </a>
           

@@ -7,6 +7,8 @@ import About from "./components/About/About";
 import Skills from "./components/Skills/Skils";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import ScrollUp from "./components/ScrollUp/ScrollUp";
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
         <Skills />
         <Portfolio />
         <Contact />
+        <Footer />
       </div>
+      <ScrollUp />
     </>
   )
 }
