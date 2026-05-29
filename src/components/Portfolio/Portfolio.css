@@ -1,5 +1,8 @@
 .portfolio {
     padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolio_container {
@@ -57,16 +60,31 @@
 
 /*=============== BREAKPOINTS ===============*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width:1400px){
+    .portfolio_container{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     .portfolio_container {
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
     .portfolio_container {
         grid-template-columns: 1fr;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        margin: auto;
     }
 }
 
