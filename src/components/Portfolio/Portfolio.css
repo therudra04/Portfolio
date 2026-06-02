@@ -88,6 +88,14 @@
     }
 }
 
+@media screen and (max-width: 451px) {
+
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        margin-left: 1.7rem;
+    }
+}
+
 .portfolio_swiper {
     width: 310px;
     height: 200px;

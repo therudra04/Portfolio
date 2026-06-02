@@ -41,7 +41,7 @@ const data = [
         images: [django1, django2, django3, django4],
         title: "Django Blog App",
         description: "Full stack blog application with authentication system.",
-        demo: "#",
+        demo: "https://rudra25.pythonanywhere.com/",
         github: "https://github.com/therudra04/Django-blog.git",
     },
 
