@@ -125,7 +125,7 @@ const Skills = () => {
             </h2>
 
             <span className="section_subtitle">
-                My technical level
+                Technical level
             </span>
 
             <div className="skills_container">

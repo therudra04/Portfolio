@@ -16,11 +16,11 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section_title">Get in Touch</h2>
-      <span className="section_subtitle">Contact Me</span>
+      <span className="section_subtitle">Contact him</span>
 
       <div className="contact_container container grid">
         <div className="contact_content">
-          <h3 className="contact-title">Talk to Me</h3>
+          <h3 className="contact-title">Talk to him</h3>
           <div className="contact_info">
             <div className="contact_card">
               <i className="bx bx-mail-send contact_card-icon"></i>
@@ -28,7 +28,7 @@ const Contact = () => {
               <h3 className="contact_card-title">Email</h3>
               <span className="contact_card-data">therudra04@gmail.com</span>
 
-              <a href="mailto:therudra04@gmail.com" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+              <a href="mailto:therudra04@gmail.com" className="contact_button">Drop an Email <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
             </div>
 
             <div className="contact_card">
@@ -37,7 +37,7 @@ const Contact = () => {
               <h3 className="contact_card-title">Whatsapp</h3>
               <span className="contact_card-data">+91 8602092662</span>
 
-              <a href="https://api.whatsapp.com/send?phone=8602092662&text=Hello, more information!" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=8602092662&text=Hello, more information!" className="contact_button">Send a Message <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
             </div>
 
             <div className="contact_card">
@@ -46,7 +46,7 @@ const Contact = () => {
               <h3 className="contact_card-title">Instagram</h3>
               <span className="contact_card-data">@rudra.modi_05</span>
 
-              <a href="https://instagram.com/rudra.modi_05" target="_blank" rel="noreferrer" className="contact_button">Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i>
+              <a href="https://instagram.com/rudra.modi_05" target="_blank" rel="noreferrer" className="contact_button"> Send a Message <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>
             
@@ -54,7 +54,7 @@ const Contact = () => {
         </div>
 
         <div className="contact_content">
-          <h3 className="contact-title">Write me your Project</h3>
+          <h3 className="contact-title">Write about your Project</h3>
           <form ref={form} onSubmit={sendEmail} action="" className="contact_form">
             <div className="contact_form-div">
               <label htmlFor="" className="contact_form-tag">Name</label>
