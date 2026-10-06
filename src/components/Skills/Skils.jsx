@@ -1,4 +1,3 @@
-import React from "react";
 
 import {
     FaHtml5,
@@ -13,7 +12,6 @@ import {
     SiDjango,
     SiMysql,
     SiSqlite,
-    SiGithub,
     SiPostman,
 } from "react-icons/si";
 

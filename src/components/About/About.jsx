@@ -1,8 +1,7 @@
-import React from 'react'
 import './About.css';
-import AboutImg from '../../Assets/about.png';
+import AboutImg from '../../Assets/about.webp';
 import CV from "../../Assets/RudraModi CV.pdf";
-import Info from './Info';
+// import Info from './Info';   
 
 const About = () => {
     return (
@@ -11,13 +10,13 @@ const About = () => {
             <span className="section_subtitle">Introduction</span>
 
             <div className="about_container container grid">
-                <img src={AboutImg} alt="" className='about_img' />
+                <img src={AboutImg} alt="" className='about_img' loading='lazy'/>
 
                 <div className="about_data">
 
                     <p className="about_description">He is a full-stack developer focused on building clean, responsive web applications. He enjoys turning ideas into real-world products while continuously improving his skills. </p>
 
-                    <a href={CV} download className="button button-flex">
+                    <a href={CV} download className="button button-flex" aria-label='Download CV'>
                         Download CV
                         <svg
                             className="button__icon"

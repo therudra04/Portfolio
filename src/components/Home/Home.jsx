@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Home.css"
 import Social from './Social'
 import Data from './Data'
@@ -11,7 +10,7 @@ const Home = () => {
                 <div className="home_content grid">
                     <Social />
 
-                    <div className="home_img"></div>
+                    <div className="home_img" loading='lazy'></div>
 
                     <Data />
                 </div>

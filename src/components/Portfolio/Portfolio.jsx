@@ -1,4 +1,3 @@
-import React from "react";
 import "./Portfolio.css";
 
 import django1 from "../../Assets/django1.jpg";
